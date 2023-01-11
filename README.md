@@ -1,33 +1,54 @@
-# Basic-Bioinformatics-Bioinformatics-1-BIO-4312d-
-A repository containing all the file projects that I have for the Basic Bioinformatics (Bioinformatics 1) (BIO 4312d)
+# Bioinformatics 6 (COMP 4312e)
+A repository containing all the file projects that I have for the Bioinformatics 6 (COMP 4312e) course.
 
-Link to this card: https://trello.com/c/g4W0b5Km
+Link to this card: https://trello.com/c/HF32d968
 
-Section: Bioinformatics
-Course: Basic Bioinformatics (Bioinformatics 1) | Coursera
-Final Project: link to your GitHub repository
-Duration: 4 weeks
-Effort: 4-10 hours per week
-
-Biology Meets Programming: Bioinformatics for Beginners
+Finding Mutations in DNA and Proteins (Bioinformatics VI)
 
 About this Course
-Are you interested in learning how to program (in Python) within a scientific setting?
+In previous courses in the Specialization, we have discussed how to sequence and compare genomes. This course will cover advanced topics in finding mutations lurking within DNA and proteins.
 
-This course will cover algorithms for solving various biological problems along with a handful of programming challenges helping you implement these algorithms in Python. It offers a gently-paced introduction to our Bioinformatics Specialization, preparing learners to take the first course in the Specialization, "Finding Hidden Messages in DNA".
+In the first half of the course, we would like to ask how an individual's genome differs from the "reference genome" of the species. Our goal is to take small fragments of DNA from the individual and "map" them to the reference genome. We will see that the combinatorial pattern matching algorithms solving this problem are elegant and extremely efficient, requiring a surprisingly small amount of runtime and memory.
 
-Each of the four weeks in the course will consist of two required components. First, an interactive textbook provides Python programming challenges that arise from real biological problems. If you haven't programmed in Python before, not to worry! We provide "Just-in-Time" exercises from the Codecademy Python track. And each page in our interactive textbook has its own discussion forum, where you can interact with other learners. Second, each week will culminate in a summary quiz.
+In the second half of the course, we will learn how to identify the function of a protein even if it has been bombarded by so many mutations compared to similar proteins with known functions that it has become barely recognizable. This is the case, for example, in HIV studies, since the virus often mutates so quickly that researchers can struggle to study it. The approach we will use is based on a powerful machine learning tool called a hidden Markov model.
 
-Lecture videos are also provided that accompany the material, but these videos are optional.
+Finally, you will learn how to apply popular bioinformatics software tools applying hidden Markov models to compare a protein against a related family of proteins.
 
-SKILLS YOU WILL GAIN
-(1) Bioinformatics
-(2) Bioinformatics Algorithms
-(3) Biology
-(4) Python Programming
+SYLLABUS
+Finding Mutations in DNA and Proteins (Bioinformatics VI)
 
-Syllabus
-(1) Where in the Genome Does Replication Begin? (Part 1)
-(2) Where in the Genome Does Replication Begin? (Part 2)
-(3) Which DNA Patterns Play the Role of Molecular Clocks? (Part 1)
-(4) Which DNA Patterns Play the Role of Molecular Clocks? (Part 2)
+Introduction to Read Mapping
+<p>Welcome to our class! We are glad that you decided to join us.</p>
+
+<p>In this class, we will consider the following two central biological&nbsp;questions (the computational approaches needed to solve them are shown in parentheses):</p>
+
+<ol><li>How Do We Locate Disease-Causing Mutations? (<em>Combinatorial Pattern Matching</em>)</li><li>Why Have Biologists Still Not Developed an HIV Vaccine?&nbsp;(<em>Hidden Markov Models</em>)</li>
+
+</ol><p>As in previous courses, each of these two chapters is accompanied by a Bioinformatics Cartoon created by talented artist Randall Christopher and serving as a chapter header in the Specialization's bestselling <a href="BioinformaticsAlgorithms.github.io" target="_blank">print companion</a>. You can find the first chapter's cartoon at the bottom of this message. </p>
+
+<p><img src="https://stepic.org/media/attachments/lessons/292/chapter7_cropped.jpg" title="Image: https://stepic.org/media/attachments/lessons/292/chapter7_cropped.jpg" width="528"></p>
+
+The Burrows-Wheeler Transform
+<p>Welcome to week 2 of the class!</p>
+
+<p>This week, we will introduce a paradigm called the Burrows-Wheeler transform; after seeing how it can be used in string compression, we will demonstrate that it is also the foundation of modern read-mapping algorithms.</p>
+
+Speeding Up Burrows-Wheeler Read Mapping
+<p>Welcome to week 3 of class!</p>
+
+<p>Last week, we saw how the Burrows-Wheeler transform could be applied to multiple pattern matching. This week, we will speed up our algorithm and generalize it to the case that patterns have errors, which models the biological problem of mapping reads with errors to a reference genome.</p>
+
+Introduction to Hidden Markov Models
+<p>Welcome to week 4 of class!</p>
+
+<p>This week, we will start examining the case of aligning sequences with many mutations -- such as related genes from different HIV strains -- and see that our problem formulation for sequence alignment is not adequate for highly diverged sequences.</p> <p>To improve our algorithms, we will introduce a machine-learning paradigm called a hidden Markov model and see how dynamic programming helps us answer questions about these models.</p>
+
+Profile HMMs for Sequence Alignment
+<p>Welcome to week 5 of class!</p>
+
+<p>Last week, we introduced hidden Markov models. This week, we will see how hidden Markov models can be applied to sequence alignment with a profile HMM. We will then consider some advanced topics in this area, which are related to advanced methods that we considered in a previous course for clustering.</p>
+
+Bioinformatics Application Challenge
+<p>Welcome to the sixth and final week of class!</p>
+
+<p>This week brings our Application Challenge, in which we apply the HMM sequence alignment algorithms that we have developed.</p>
